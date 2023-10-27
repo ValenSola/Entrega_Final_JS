@@ -3,6 +3,7 @@ let carrito = cargarCarrito();
 let productosJSON = [];
 let cantidadTotalCompra = carrito.length;
 
+
 $(document).ready(function () {
   $("#cantidad-compra").text(cantidadTotalCompra);
   $("#btn-finalizar").on('click', function () {
